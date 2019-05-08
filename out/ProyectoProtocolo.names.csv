@@ -1,0 +1,363 @@
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00118c 000000bc t uartProcessIRQ
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a8c 00000004 b rxIsrCallbackUART0
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a90 00000004 b rxIsrCallbackUART2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a94 00000004 b rxIsrCallbackUART3
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a98 00000004 b txIsrCallbackUART0
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a9c 00000004 b txIsrCallbackUART2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000aa0 00000004 b txIsrCallbackUART3
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00830c 00000048 t lpcUarts
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a78 00000002 b sock_io_mode
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a7a 00000002 b sock_is_sending
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000000 00000002 d sock_any_port
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000002 00000002 d any_port.12281
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000004 00000004 d ClockSpeed
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000e74 00000010 t clearInterrupt
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000e84 0000005c t serveInterrupt
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1000000c 00000048 d ultrasonicSensors
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0081d0 00000003 t ultrasonicSensorsIrqMap
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000eec 00000034 t gpioObtainPinInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00135c 00000002 t errorOcurred
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00135e 00000002 t doNothing
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000054 00000040 d timer_dd
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00155c 00000044 t Board_LED_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0015a0 00000040 t Board_TEC_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0015e0 00000040 t Board_GPIO_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001620 00000038 t Board_SPI_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001658 00000024 t Board_I2C_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00167c 00000030 t Board_ADC_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008358 00000008 t GpioButtons
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008360 0000000c t GpioLeds
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00836c 00000012 t GpioPorts
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000aa4 00000004 b heap_end.11488
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008384 0000000c t InitClkStates
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008390 00000098 t pinmuxing
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0018cc 0000002c t Chip_UART_GetIndex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008428 00000008 t UART_BClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008430 00000008 t UART_PClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001a34 00000014 t Chip_ADC_GetClockIndex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001a48 00000032 t getClkDiv
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001b10 000000a4 t pll_calc_divs
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001bb4 0000010c t pll_get_frac
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001cc0 0000004c t Chip_Clock_FindBaseClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001f34 00000022 t Chip_Clock_GetDivRate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000aa8 00000008 b audio_usb_pll_freq
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008444 0000006c t periph_to_base
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0084b0 00000048 t InitClkStates
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000094 00000038 d i2c
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0022c8 0000001a t SSP_Write2BFifo
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0022e2 00000018 t SSP_Write1BFifo
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0022fa 00000042 t SSP_Read2BFifo
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00233c 00000040 t SSP_Read1BFifo
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00237c 00000014 t Chip_SSP_GetClockIndex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002390 00000018 t Chip_SSP_GetPeriphClockIndex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a004e5c 00000084 t __sbprintf
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00853c 00000010 t blanks.8605
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00854c 00000010 t zeroes.8606
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a004fac 00000124 t quorem
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0060a0 00000050 t std
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008660 0000000c t p05.7367
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0079f4 00000076 t __sprint_r.part.0
+ProyectoProtocolo/out/ProyectoProtocolo.elf:100000d0 00000428 d impure_data
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008780 b __init_array_end
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008780 b __preinit_array_end
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008780 b __init_array_start
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008780 b __preinit_array_start
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007f30 0000002c T __aeabi_dcmpun
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001d58 0000001c T Chip_Clock_GetDividerSource
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001750 00000012 T _isatty_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007ef4 00000012 T __aeabi_dcmple
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a003238 0000009c T _puts_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0013e0 00000044 T TIMER2_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e30 0000007a T __cmpdf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00018e 00000002 W DebugMon_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001762 0000000a T _lseek_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W RIT_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a080000 A __top_MFlashA512
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e30 0000007a T __eqdf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W ADCHS_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000114 T __section_table_start
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W FLASH_EEPROM_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002880 0000005a T __floatdidf
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W I2C0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a003210 00000028 T printf
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000afc 00000001 B __lock___atexit_recursive_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007db4 00000050 T _wcrtomb_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007968 00000020 T __sseek
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0060fc 00000058 T __sinit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a84 00000004 B callBackFuncParams
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007a80 000000b0 T __swbuf_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000184 00000002 W HardFault_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000370 000000e4 T recv
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000610 000000d8 T connect
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000000 A __vectors_start__
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001aee 0000000c T Chip_ADC_SetResolution
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006f24 0000000c T __malloc_unlock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000838 00000044 T WREAD
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001154 00000038 T SysTick_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b00 00000001 B __lock___arc4random_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SDIO_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0016e4 0000001c T Board_UARTGetChar
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W ATIMER_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006e50 000000c6 T memmove
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000190 00000002 W PendSV_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000182 00000002 W NMI_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006f30 0000004c T _Balloc
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008788 R __exidx_end
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000150 T __data_section_table_end
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W I2C1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W UART1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e20 0000008a T __gtdf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO5_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W CAN1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000abc 00000168 T loopback_tcpc
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001746 0000000a T _fstat_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:53ff5380 A __valid_user_code_checksum
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008788 R _etext
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007ebc 00000010 T __aeabi_cdcmple
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W USB1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W I2S0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001424 00000044 T TIMER3_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001fd6 0000000c T Chip_Clock_GetBaseClocktHz
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000178 0000000a T UART0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0001b4 00000012 T bss_init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a003048 00000134 T memcpy
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007eac 00000020 T __aeabi_cdrcmple
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SGPIO_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0060f0 0000000c T _cleanup_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002808 00000022 T __floatsidf
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e28 00000082 T __ltdf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0028dc T __aeabi_uldivmod
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b20 ? _noinit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0032d4 00000010 T puts
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000af8 00000004 B SystemCoreClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0018f8 00000054 T Chip_UART_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W ADC0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008598 000000c8 T __mprec_tens
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00018a 00000002 W UsageFault_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002054 0000004c T Chip_Clock_GetRate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO6_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000ae0 00000004 B __malloc_top_pad
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000ae8 00000008 B tickCounter
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001854 0000006c T Board_SetupClocking
+ProyectoProtocolo/out/ProyectoProtocolo.elf:20008000 A __top_RamAHB32
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0027e8 0000001e T __aeabi_ui2d
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006744 0000001c T _localeconv_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0070b0 00000012 T __i2b
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0063f4 000002fc T __sfvwrite_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00290c 000002cc T __udivmoddi4
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002564 T __aeabi_drsub
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0017b8 00000020 T _sbrk_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008354 00000004 T ExtRateIn
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W IntDefaultHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0009a2 0000005e T WgetSn_RX_RSR
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0006e8 00000150 T socket
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000300 T __CRP_WORD_END__
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0012ac 0000002c T spiRead
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00176c 0000004a T _read_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007ee0 00000012 T __aeabi_dcmplt
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007b98 000000d0 T _fclose_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000ad8 00000004 B __malloc_max_sbrked_mem
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00282c 00000042 T __extendsfdf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002e30 000001d0 T __aeabi_ddiv
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SSP0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002570 00000276 T __adddf3
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008780 R __exidx_start
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b04 00000001 B __lock___env_recursive_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002bdc 00000254 T __aeabi_dmul
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0002fc 00000004 T CRP_WORD
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b08 00000001 B __lock___sinit_recursive_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007544 0000035c T _realloc_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a003000 00000048 T __libc_init_array
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000944 0000005e T WgetSn_TX_FSR
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00087c 0000003c T WWRITE
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000454 0000012c T send
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007d08 00000064 T _fputwc_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008570 00000028 T __mprec_bigtens
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0027e8 0000001e T __floatunsidf
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W ADC1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00735c 00000036 T __mcmp
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a7c 00000008 B sock_pack_info
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001700 0000003c T Board_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0008b8 00000044 T WREAD_BUF
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002560 00000002 T _init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000114 T __data_section_table
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0023ba 000000aa T Chip_SSP_RWFrames_Blocking
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W RTC_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b20 B _ebss
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001360 00000040 T TIMER0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0010d8 0000007c T tickInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:20010000 A __top_RamAHB_ETB16
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SPI_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007010 0000003e T __hi0bits
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002290 00000038 T Chip_I2C_SetClockRate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007f5c 0000004e T __fixdfsi
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W LCD_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001d0c 0000004c T Chip_Clock_EnableCrystal
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b0c 00000001 B __lock___malloc_recursive_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10008000 A __top_RamLoc32
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002570 00000276 T __aeabi_dadd
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000196 0000001e T data_init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e28 00000082 T __ledf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007210 000000a0 T __pow5mult
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002870 0000006a T __aeabi_ul2d
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0013a0 00000040 T TIMER1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00226c 00000024 T Chip_I2C_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000580 00000090 T disconnect
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00676c 00000002 T __retarget_lock_release_recursive
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001248 0000000a T UART2_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001ec8 0000006c T Chip_Clock_GetMainPLLHz
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0081d4 00000136 T gpioPinsInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0023a8 00000012 T Chip_SSP_SetClockRate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007f1c 00000012 T __aeabi_dcmpgt
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0008fc 00000048 T WWRITE_BUF
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000ee0 0000000a T GPIO2_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006154 0000000c T __sfp_lock_acquire
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006db0 T memchr
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00620c 000001e8 T _free_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001fb0 00000026 T Chip_Clock_GetBaseClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007d6c 0000001c T __locale_mb_cur_max
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007f08 00000012 T __aeabi_dcmpge
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a78 B _bss
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001abc 00000032 T Chip_ADC_SetSampleRate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00256c 0000027a T __aeabi_dsub
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000900 00000004 D __malloc_sbrk_base
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00133c 00000020 T delayInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002870 0000006a T __floatundidf
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0072b0 000000ac T __lshift
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W I2S1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002464 0000003e T Chip_SSP_SetBitRate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002248 00000002 T Chip_GPIO_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a008380 00000004 T OscRateIn
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0070c4 0000014a T __multiply
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b20 ? _end_noinit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10008000 A _vStackTop
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007990 00000064 T strncpy
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000ab0 00000028 B __malloc_current_mallinfo
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007480 000000c2 T __d2b
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SSP1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0012d8 0000002c T spiWrite
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000178 T __bss_section_table_end
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00173c 0000000a T _close_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002808 00000022 T __aeabi_i2d
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000f20 00000194 T gpioInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000a00 0000005e T Wsend_data
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006764 00000002 T __retarget_lock_close_recursive
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a004ee0 000000cc T __swsetup_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002bd8 00000002 W __aeabi_ldiv0
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002e30 000001d0 T __divdf3
+ProyectoProtocolo/out/ProyectoProtocolo.elf:100004f8 00000408 D __malloc_av_
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002bdc 00000254 T __muldf3
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007908 00000022 T __sread
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W USB0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO3_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006f18 0000000c T __malloc_lock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0016d0 00000014 T Board_UARTPutChar
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SCT_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006044 0000005a T _fflush_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007b30 00000068 T _calloc_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001d74 0000001c T Chip_Clock_GetDividerDivisor
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0002fc T __CRP_WORD_START__
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006768 00000002 T __retarget_lock_acquire_recursive
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00317c 00000094 T memset
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000186 00000002 W MemManage_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000c24 00000234 T main
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000adc 00000004 B __malloc_max_total_mem
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006760 00000002 T __retarget_lock_init_recursive
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W WDT_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00125c 00000050 T spiInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:2000c000 A __top_RamAHB16
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1008a000 A __top_RamLoc40
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00018c 00000002 W SVC_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000008 00000004 D DWT_CTRL
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007988 00000008 T __sclose
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0050d0 00000e20 T _dtoa_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006860 00000548 T _malloc_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e04 0000001a T __ascii_wctomb
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002880 0000005a T __aeabi_l2d
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO7_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001fe4 0000003c T Chip_Clock_EnableOpts
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00616c 000000a0 T _malloc_trim_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001d90 000000b8 T Chip_Clock_GetClockInputHz
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0021f4 00000054 T fpuInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001e48 00000080 T Chip_Clock_CalcMainPLLValue
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001800 0000001c T SystemInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W SPIFI_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001304 00000038 T delay
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W QEI_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000150 T __bss_section_table
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e30 0000007a T __nedf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001a7c 00000040 T Chip_ADC_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00181c 00000038 T Board_SetupMuxing
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00194c 000000e8 T Chip_UART_SetBaudFDR
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0010b4 0000000c T tickRead
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0017d8 00000028 T _write_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000af0 00000008 B tickRateMS
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W ETH_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a88 00000004 B tickHookFunction
+ProyectoProtocolo/out/ProyectoProtocolo.elf:100000cc 00000004 D _impure_ptr
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a005ef0 00000154 T __sflush_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000000 ? _end_uninit_RESERVED
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W CAN0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007d88 0000002a T __ascii_mbtowc
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000000 D _data
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b20 B _pvHeapStart
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000178 T __section_table_end
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0024a4 00000038 T Chip_SSP_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GINT0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006770 0000005c T __swhatbuf_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W DAC_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0016ac 00000024 T Board_Debug_Init
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007ecc 00000012 T __aeabi_dcmpeq
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000a74 D _edata
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00224c 00000020 T Chip_I2C_EventHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W M0SUB_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007c68 0000009e T __fputwc
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b10 00000001 B __lock___at_quick_exit_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0020a0 00000154 T Chip_SetupCoreClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00792c 0000003c T __swrite
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO0_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000904 00000004 D __malloc_trim_threshold
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000000 00000114 T g_pfnVectors
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0024dc 00000084 T ResetISR
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0066f0 00000052 T _fwalk_reent
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001afc 00000014 T SystemCoreClockUpdate
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007394 000000ec T __mdiff
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007f5c 0000004e T __aeabi_d2iz
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W DMA_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W EVRT_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1b080000 A __top_MFlashB512
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006160 0000000c T __sfp_lock_release
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00867c 00000101 T _ctype_
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002bd8 00000002 W __aeabi_idiv0
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007f30 0000002c T __unorddf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000188 00000002 W BusFault_Handler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b14 00000001 B __lock___dd_hash_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0067cc 00000094 T __smakebuf_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b18 00000001 B __lock___tz_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a003300 000000dc T strlen
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a002020 00000034 T Chip_Clock_Enable
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007ebc 00000010 T __aeabi_cdcmpeq
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007e20 0000008a T __gedf2
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001252 0000000a T UART3_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W MCPWM_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007a6c 00000014 T __sprint_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W M0APP_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000a5e 0000005e T Wrecv_data
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00282c 00000042 T __aeabi_f2d
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001468 000000f4 T boardInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a00256c 0000027a T __subdf3
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0033e0 00001a7c T _vfprintf_r
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GINT1_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a007050 0000005e T __lo0bits
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0010c0 00000018 T tickPowerSet
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0078a0 00000068 T frexp
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000300 00000070 T close
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000908 0000016c D __global_locale
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a001f58 00000058 T Chip_Clock_SetBaseClock
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000e58 0000001c T cyclesCounterInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a000194 00000002 W GPIO4_IRQHandler
+ProyectoProtocolo/out/ProyectoProtocolo.elf:10000b1c 00000001 B __lock___sfp_recursive_mutex
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a0018c0 0000000c T Board_SystemInit
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006f90 00000080 T __multadd
+ProyectoProtocolo/out/ProyectoProtocolo.elf:1a006f7c 00000012 T _Bfree
